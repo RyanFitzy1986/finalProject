@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <head>
+        <title> Bob's Burger Menu </title>
+      </head>
+      
+      <body>
+      
+        <div>
+          <h1>BOB'S BURGERS</h1>
+          <h2>Burger of the Day</h2>
+        </div> 
+        
+        <button type ="button" onclick="show()" id="characterButton">Select a Character</button>
+
+        <div class="character"> <h3>You are:</h3>
+          <img src="https://pm1.narvii.com/6288/b20c821dcf1cbb123243455ec9d329191f653233_hq.jpg" id="selectCharacter">
+      
+        <div id="charFacts">
+        <div id="charFactsH1">${name}</div>
+          <ul>
+            <div id="charFactsH2">Character Facts</div>
+            <li>Gender: ${gender}</li>
+            <li>Hair Color: ${hairColor}</li>
+            <li>Occupation: ${occupation}</li>
+            <br>
+            <br>
+            <div id="charFactsH2">Episode Facts</div>
+            <li>First Episode: ${firstEpisode}</li>
+            <li>Voiced by: ${voicedBy}</li>
+            <li>Wiki URL: ${wikiurl}</li>
+          </ul>
+        </div>
+           </div>
+      
+        <br><br><br>
+      
+        <div id="buttons">
+        <button type ="button" onclick="show()" id="burgerButton">Burger of the Day</button>
+        </div>
+      
+        <div class="menu" id="menu">
+          <div id="menuTitle">BURGER</div>
+          <div id="menuTitle2">OF THE DAY</div>
+          <div id="menuItem"></div>
+          <div id="price">$5.95</div>
+        </div>
+      
+        <button type ="button" onclick="show()" id="belcherFamilyButton">Order Burger</button>
+<br>
+<br>
+
+
+        <div class="character2"> <h3>Served by:</h3>
+          <img src="https://vignette.wikia.nocookie.net/bobsburgerpedia/images/b/bb/Bsbs_Bob_2F.jpg/revision/latest/top-crop/width/300/height/300?cb=20120520151811" id="selectCharacter">
+      
+           
+          <div id="charFacts">
+            <div id="charFactsH1">${name}</div>
+              <ul>
+                <div id="charFactsH2">Character Facts</div>
+                <li>Gender: ${gender}</li>
+                <li>Hair Color: ${hairColor}</li>
+                <li>Occupation: ${occupation}</li>
+                <br>
+                <br>
+                <div id="charFactsH2">Episode Facts</div>
+                <li>First Episode: ${firstEpisode}</li>
+                <li>Voiced by: ${voicedBy}</li>
+                <li>Wiki URL: ${wikiurl}</li>
+              </ul>
+            </div>
+               </div>
+        
+          <br><br><br>
+      
+        <div id="reset">
+          <button id="resetButton">Try Again</button>
+        </div>
+      </body>
+    <script src="script.js"></script>
+  </body>
+</html>
